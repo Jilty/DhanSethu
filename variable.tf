@@ -38,3 +38,9 @@ variable "availability_zone2" {
   type        = string
   default = "ap-south-2b"
 }
+
+variable "targetgroup_name" {
+  description = "target group name"
+  type        = string
+  default = "my-target-gruop"
+}
